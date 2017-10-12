@@ -31,7 +31,7 @@ public class UserController implements Serializable{
 	
 	@RequestMapping(value = "/login" , method = RequestMethod.POST)
 	@ResponseBody
-	public ResponseEntity<String> login(@RequestBody User user,HttpSecurity security)
+	public ResponseEntity<String> login(@RequestBody User user)
 	{
 		System.out.println("#####.....Inside Login API.....#####");
 		logger.debug("************************************************************************");

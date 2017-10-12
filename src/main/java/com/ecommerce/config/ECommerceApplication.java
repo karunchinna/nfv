@@ -15,6 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @author 
  *
  */
+
 @SpringBootApplication
 @ComponentScan(basePackages = { "com.ecommerce" })
 public class ECommerceApplication extends SpringBootServletInitializer implements Serializable

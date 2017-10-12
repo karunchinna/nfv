@@ -31,7 +31,7 @@ public class CartController implements Serializable {
 	CartRepository cartRepository;
 	
 	@RequestMapping(value = "/getProductListFromCart" , method = RequestMethod.POST)
-	@ResponseBody
+	
 	public ResponseEntity<Iterable<Cart>> getProductListFromCart(@RequestBody User user)
 	{
 		System.out.println("#####.....Inside Get Product List From Cart API.....$$$$$");
